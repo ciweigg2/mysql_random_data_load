@@ -94,7 +94,7 @@ CREATE TABLE `test`.`t3` (
   `tcol04` int(11) DEFAULT NULL,
   `tcol05` bigint(20) DEFAULT NULL,
   `tcol06` float DEFAULT NULL,
-  `tcol07` double DEFAULT NULL,
+  `tcol07` double(10,2) DEFAULT NULL,
   `tcol08` decimal(10,2) DEFAULT NULL,
   `tcol09` date DEFAULT NULL,
   `tcol10` datetime DEFAULT NULL,
